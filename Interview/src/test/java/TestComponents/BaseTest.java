@@ -30,7 +30,6 @@ public class BaseTest{
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(option);
-	    
 		      
 	    }
 		else if (browserName.equalsIgnoreCase("firefox")) {
