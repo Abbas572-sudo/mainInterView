@@ -23,7 +23,7 @@ public class BaseTest{
 		Properties pro = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//objectModle//objectModleResources.properties");
 		pro.load(fis);
-		String browserName = System.getProperty("browser") !=null ? System.getProperty("browser") :pro.getProperty("browser")
+		String browserName = System.getProperty("browser") !=null ? System.getProperty("browser") :pro.getProperty("browser");
 	    if(browserName.equalsIgnoreCase("chrome")) {
 	    	
 	    	System.setProperty("webdriver.chrome.driver", "/Users/muhammadabbas/Downloads/chromedriver");
