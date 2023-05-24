@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T00:19:09 PKT" name="Suite" finished-at="2023-05-25T00:19:50 PKT" duration-ms="41194">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T00:19:09 PKT" name="Signin" finished-at="2023-05-25T00:19:50 PKT" duration-ms="41194">
+      <class name="interView.Main">
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:09 PKT" name="launchSite" finished-at="2023-05-25T00:19:19 PKT" duration-ms="10083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="functionOne()[pri:1, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:19 PKT" name="functionOne" description="Verify that user able to login with valid Email and Pasword and perfrom" finished-at="2023-05-25T00:19:26 PKT" duration-ms="6842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionOne -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:26 PKT" name="launchSite" finished-at="2023-05-25T00:19:30 PKT" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="functionTwo()[pri:2, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:30 PKT" name="functionTwo" description="assert that the first item has the lowest price and that the last item has the highest price.if user select price low to high" finished-at="2023-05-25T00:19:46 PKT" duration-ms="16243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionTwo -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:46 PKT" name="launchSite" finished-at="2023-05-25T00:19:49 PKT" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="functionThree()[pri:3, instance:interView.Main@209da20d]" started-at="2023-05-25T00:19:49 PKT" name="functionThree" description="Cart Assertion" finished-at="2023-05-25T00:19:50 PKT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionThree -->
+      </class> <!-- interView.Main -->
+    </test> <!-- Signin -->
+  </suite> <!-- Suite -->
+</testng-results>

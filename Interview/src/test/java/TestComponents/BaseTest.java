@@ -21,7 +21,7 @@ public class BaseTest{
 	public WebDriver driver;
 	public WebDriver intializeDriverNew() throws IOException {
 		Properties pro = new Properties();
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//objectModle//objectModleResources.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//objectModle//GlobalData.properties");
 		pro.load(fis);
 		String browserName = System.getProperty("browser") !=null ? System.getProperty("browser") :pro.getProperty("browser");
 	    if(browserName.equalsIgnoreCase("chrome")) {
