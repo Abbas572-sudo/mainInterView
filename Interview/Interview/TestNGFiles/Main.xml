@@ -4,9 +4,7 @@
    <listeners>
 <listener class-name="TestComponents.Listners"/>
 </listeners>
-
-
-
+    
 
     <test name="Signin">
     <classes>
