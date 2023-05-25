@@ -17,7 +17,7 @@ import java.util.Set;
 
 public class MyProfile extends BaseTest{
 	ExtentReports extent;
-
+  String abbas = "";
 
 
 	@Test(priority=1 , description = "Verify that user able to login with valid Email and Pasword and perfrom all calculations)")
